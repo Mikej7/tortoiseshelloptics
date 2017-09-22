@@ -1,0 +1,164 @@
+html {
+font-family: helvetica;
+font-size: 18px;
+line-height: 1.4;
+}
+
+.headercontainer {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+header {
+  background-image: url("../images/glasses-bg.png");
+    width: 100%;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    color: white;
+    height: 30rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+.logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.navcontainer a {
+  color:white;
+  text-decoration: none;
+}
+.navcontainer {
+  display:flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.navcontainer li {
+  display: inline;
+  margin-right: 2rem;
+}
+.bannerbox {
+  display:flex;
+  justify-content: flex-end;
+}
+.bannerbox h1 {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 17rem;
+  left: 2rem;
+  margin-right: 180px;
+}
+
+
+
+.maincontainer {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.image1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 3.5rem;
+        height: 8rem;
+        margin-top: 3rem;
+        margin-right: 6rem;
+        margin-left: 6rem;
+}
+
+.image2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 5rem;
+        height: 8rem;
+        margin-top: 3rem;
+        margin-right: 6rem;
+}
+
+.image3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 5rem;
+        height: 8rem;
+        margin-top: 3rem;
+}
+
+.image1 img {
+  width: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.image2 img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.image3 img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.contentcontainer {
+  display: flex;
+  width: 960px;
+
+  justify-content: center;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 200px;
+  margin-top: 3rem;
+}
+
+.info-name {
+  color: white;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.content {
+  width: 35%;
+margin: 0 2.5%;
+}
+
+.copyright {
+  display: flex;
+  background-color: azure;
+  align-items: center;
+  max-width: 960px;
+  margin: auto;
+}
+
+.copyright img {
+  height: 1.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
+
+footer span {
+  display: inline;
+}
